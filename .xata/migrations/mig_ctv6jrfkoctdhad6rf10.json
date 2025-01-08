@@ -1,0 +1,25 @@
+{
+    "done": true,
+    "migration": {
+        "name": "mig_ctv6jrfkoctdhad6rf10",
+        "operations": [
+            {
+                "add_column": {
+                    "up": "''",
+                    "table": "whitelist",
+                    "column": {
+                        "name": "discord_id",
+                        "type": "text",
+                        "unique": true,
+                        "comment": ""
+                    }
+                }
+            }
+        ]
+    },
+    "migrationType": "pgroll",
+    "name": "mig_ctv6jrfkoctdhad6rf10",
+    "parent": "mig_ctv6jl7koctdhad6rf00",
+    "schema": "public",
+    "startedAt": "2025-01-08T12:05:02.236272Z"
+}

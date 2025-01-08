@@ -1,0 +1,25 @@
+{
+    "done": true,
+    "migration": {
+        "name": "mig_ctv6k3nkoctdhad6rf20",
+        "operations": [
+            {
+                "add_column": {
+                    "up": "''",
+                    "table": "whitelist",
+                    "column": {
+                        "name": "minecraft_user",
+                        "type": "text",
+                        "unique": true,
+                        "comment": ""
+                    }
+                }
+            }
+        ]
+    },
+    "migrationType": "pgroll",
+    "name": "mig_ctv6k3nkoctdhad6rf20",
+    "parent": "mig_ctv6jrfkoctdhad6rf10",
+    "schema": "public",
+    "startedAt": "2025-01-08T12:05:35.640966Z"
+}
